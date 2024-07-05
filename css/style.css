@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+}
+
+/*Estilo tela de login*/
+.body-login {
+    background-image: url(/imagens/URBAN\ GREEN\ -\ background\ desk_web\ \(2\).png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container-login{
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    width: 70vw;
+}
+
+.jardineira-div{
+    background-color: #f5f5f5;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-logo-login{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.logo-login{
+    height: 120px;
+}
+
+.jardineira{
+    height: 400px;
+}
+
+.div-form-login{
+    background-color:#375b49;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-titulo{
+    color: #ffff;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.usuario-div, .senha-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-usuario, .label-senha{
+    padding-bottom: 10px;
+    color: #ffff;
+}
+
+#usuario, #senha{
+    height: 35px;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: #2e4038;
+    border-radius: 10px;
+    color: white;
+    padding-left: 10px;
+}
+
+#botao-entrar{
+    background-color: #5f9899;
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    border-radius: 12px;
+    margin-top:10px;
+}
