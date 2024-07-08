@@ -10,7 +10,7 @@
 
 /*Estilo tela de login*/
 .body-login {
-    background-image: url(/imagens/URBAN\ GREEN\ -\ background\ desk_web\ \(2\).png);
+    background-image: url(imagens/URBAN\ GREEN\ -\ background\ desk_web\ \(2\).png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,11 +40,11 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .logo-login{
-    height: 120px;
+    height: 45px;
 }
 
 .jardineira{
@@ -101,4 +101,96 @@
     width: 150px;
     border-radius: 12px;
     margin-top:10px;
+}
+
+/*Estilo tela de Inicio*/
+
+.header-tela-principal{
+    background-color: #ffffff;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-header{
+    height: 45px;
+    padding-left: 35px;
+}
+
+.div-perfil-sair{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.foto-perfil{
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 18px;
+}
+
+.botao-sair{
+    height: 45px;
+}
+
+.barra-estilo-header{
+    border: 2px solid #aebbb6;
+}
+
+.body-tela-principal{
+    background-color: #f5f5f5;
+}
+
+.div-usuario-logado{
+    background-color: #fff;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+    margin: 10px 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foto-perfil-logado{
+    height: 90px;
+    border-radius: 50%;
+}
+
+.nome-usuario{
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.cargo-perfil{
+    color: #959598;
+}
+
+.menu-lateral{
+    width: 20vw;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 65vh;
+}
+
+.icone-menu-lateral{
+    height: 30px;
+    border: 2px solid #fff;
+    margin: 0 10px 0 10px;
+}
+
+.lista-menu-lateral a{
+    text-decoration: none;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.seta-menu{
+    height: 30px;
 }
