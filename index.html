@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Green</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="icon" href="estilo/imagens/URBAN GREEN - Icone web.png">
+</head>
+<div class="div-header">
+    <header class="header-tela-principal">
+        <img src="estilo/imagens/URBAN GREEN - Logo nome sistema.png" class="img-header">
+        <div class="div-perfil-sair">
+            <img src="estilo/imagens/URBAN GREEN - Foto padrão perfil.png" class="foto-perfil">
+            <img src="estilo/imagens/URBAN GREEN - Icone sair.png" class="botao-sair" onclick="(x)">
+        </div>
+    </header>
+    <body class="body-tela-principal"></body>
+    <div class="barra-estilo-header"></div>
+</div>
+<body>
+    <div class="barra-estilo-header"></div>
+    <div class="corpo">
+        <div id="div-fornecedores">
+            <div class="box-fornecedores">
+                <div class="cabecalho-fornecedores">
+                    <img class="imagem-titulo" src="estilo/imagens/URBAN GREEN - Titulo fornecedores.png">
+                    <div class="cabecalho-pesquisa-fornecedor">
+                        <div class="search-container">
+                            <input type="text" id="campo-pesquisar-fornecedor">
+                            <button id="btn-pesquisar-fornecedor" type="submit">
+                                <span><i class="bi-search"></i></span>
+                            </button>
+                        </div>
+                        <button id="btn-adicionar-fornecedor" type="submit">+</button>
+                    </div>
+                </div>
+                <div class="div-lista">
+                    <div id="lista"></div>
+                </div>
+            </div>
+        </div>
+        <div id="div-estoque">
+            <div class="box">
+                <div class="cabecalho-estoque">
+                    <img class="imagem-titulo" src="estilo/imagens/URBAN GREEN - Titulo  estoque.png">
+                    <div class="cabecalho-pesquisa-estoque">
+                        <div class="search-container">
+                            <input type="text" id="campo-pesquisar-estoque">
+                            <button id="btn-pesquisar-estoque" type="submit">
+                                <span><i class="bi-search"></i></span>
+                            </button>
+                        </div>
+                        <button id="btn-adicionar-estoque" type="submit">+</button>
+                    </div>
+                </div>
+                <div class="div-lista">
+                    <div id="lista"></div>
+                </div>
+            </div>
+        </div>
+        <div id="div-producao">
+            <div class="box">
+                <div class="cabecalho-producao">
+                    <img class="imagem-titulo" src="estilo/imagens/URBAN GREEN - Titulo producao.png">
+                    <div class="cabecalho-pesquisa-producao">
+                        <div class="search-container">
+                            <input type="text" id="campo-pesquisar-producao">
+                            <button id="btn-pesquisar-producao" type="submit">
+                                <span><i class="bi-search"></i></span>
+                            </button>
+                        </div>
+                        <button id="btn-adicionar-producao" type="submit">+</button>
+                    </div>
+                </div>
+                <div class="div-lista">
+                    <div id="lista"></div>
+                </div>
+            </div>
+        </div>
+        <div id="div-vendas">
+            <div class="box">
+                <div class="cabecalho-vendas">
+                    <img class="imagem-titulo" src="estilo/imagens/URBAN GREEN - Titulo  vendas.png">
+                    <div class="cabecalho-pesquisa-vendas">
+                        <div class="search-container">
+                            <!--<input type="datetime" id="campo-pesquisar-vendas">-->
+                        </div>
+                    </div>
+                </div>
+                <div class="div-lista">
+                    <div id="lista"></div>
+                </div>
+            </div>
+        </div>
+        <div id="div-pedidos">
+            <div class="box">
+                <div class="cabecalho-pedidos">
+                    <img class="imagem-titulo" src="estilo/imagens/URBAN GREEN - Titulo  pedidos.png">
+                    <div class="cabecalho-pesquisa-pedidos">
+                        <div class="search-container">
+                            <input type="text" id="campo-pesquisar-pedidos">
+                            <button id="btn-pesquisar-pedidos" type="submit">
+                                <span><i class="bi-search"></i></span>
+                            </button>
+                        </div>
+                        <button id="btn-adicionar-pedidos" type="submit">+</button>
+                    </div>
+                </div>
+                <div class="div-lista">
+                    <div id="lista"></div>
+                </div>
+            </div>
+        </div>
+        <div class="div-footer">
+            <footer>Copyright &#169; 2024 by Urban Green. All rights reserved.</footer>
+        </div> 
+    </div>
+    <!-- menu -->
+    <nav class="menu-lateral">
+        <ul>
+            <li class="item-menu">
+                <a href="#div-fornecedores">
+                    <span class="icon"><i class="bi bi-person-circle"></i></span>
+                    <span class="text-link">Fornecedores</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#div-estoque">
+                    <span class="icon"><i class="bi-bag"></i></span>
+                    <span class="text-link">Estoque</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#div-producao">
+                    <span class="icon"><i class="bi-flower1"></i></span>
+                    <span class="text-link">Produção</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#div-vendas">
+                    <span class="icon"><i class="bi-currency-dollar"></i></span>
+                    <span class="text-link">Vendas</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#div-pedidos">
+                    <span class="icon"><i class="bi-file-earmark"></i></span>
+                    <span class="text-link">Pedidos</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
